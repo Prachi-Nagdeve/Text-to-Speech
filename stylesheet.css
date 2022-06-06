@@ -11,11 +11,11 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #5256AD;
+  background: black;
 }
 ::selection{
   color: #fff;
-  background: #5256AD;
+  background: black;
 }
 .wrapper{
   width: 370px;
@@ -68,7 +68,7 @@ form .row .outer{
   align-items: center;
   border-radius: 5px;
   justify-content: center;
-  border: 1px solid #999;
+  border: 1px solid rgb(11, 11, 11);
 }
 form .row select{
   font-size: 14px;
@@ -87,15 +87,15 @@ form .row select::-webkit-scrollbar-thumb{
 }
 form button{
   height: 52px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 17px;
   cursor: pointer;
   margin-top: 10px;
-  background: #675AFE;
+  background: black;
   transition: 0.3s ease;
 }
 form button:hover{
-  background: #4534fe;
+  background: black;
 }
 @media(max-width: 400px){
   .wrapper{
